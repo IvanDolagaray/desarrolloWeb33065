@@ -1,0 +1,35 @@
+.carousel {
+    .carousel-h {
+        font-size: 3.4rem;
+    }
+    .carousel-p {
+        font-size: 2rem;
+    }
+}
+.cursos {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+
+    .cursos__title {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .center {
+        object-fit: cover;
+        object-position: center;
+    }
+    .height-100 {
+        height: 100%;
+    }
+    .flex-direc-column {
+        flex-direction: column;
+    }
+
+    .card-title {
+        font-size: 2rem;
+    }
+}

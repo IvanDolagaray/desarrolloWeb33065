@@ -1,0 +1,70 @@
+.bannerNosotros {
+    background-image: url(../img/empresa.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 75%;
+    max-width: 1200rem;
+    height: 50rem;
+    margin: 2rem auto;
+    z-index: -20;
+
+    .bannerNosotros__content {
+        padding: 4rem;
+        width: 35%;
+        height: 100%;
+        color: $white;
+        z-index: 10;
+
+        h2 {
+            margin-bottom: 3.5rem;
+            font-size: 4rem;
+        }
+
+        p {
+            font-size: 2rem;
+        }
+
+        @media (max-width: 960px) {
+            width: 100%;
+            color: $white;
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: column;
+
+        }
+    }
+
+    .bannerNosotros__shadow {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(1, 1, 1, 0.9);
+        background: linear-gradient(0deg, rgba(1, 1, 1, 0.9) 35%, rgba(0, 255, 0, 0.05) 90%);
+        background: -webkit-linear-gradient(0deg, rgba(1, 1, 1, 0.9) 35%, rgba(0, 255, 0, 0.05) 90%);
+        background: -moz-linear-gradient(0deg, rgba(1, 1, 1, 0.9) 35%, rgba(0, 255, 0, 0.05) 90%);
+        z-index: -10;
+
+        @media (max-width: 960px) {
+            background: rgba(1, 1, 1, 0.9);
+            background: linear-gradient(90deg, rgba(1, 1, 1, 0.9) 35%, rgba(0, 255, 0, 0.05) 90%);
+            background: -webkit-linear-gradient(90deg, rgba(1, 1, 1, 0.9) 35%, rgba(0, 255, 0, 0.05) 90%);
+            background: -moz-linear-gradient(90deg, rgba(1, 1, 1, 0.9) 35%, rgba(0, 255, 0, 0.05) 90%);
+
+        }
+    }
+}
+
+.staff {
+    width: 70%;
+    margin: 0 auto 3rem;
+    border-top: solid $black 1px;
+
+    .staff__title {
+        text-align: center;
+        margin: 2rem 0;
+    }
+}

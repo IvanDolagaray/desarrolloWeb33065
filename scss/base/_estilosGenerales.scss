@@ -1,0 +1,73 @@
+@import '../base/variables';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /* =10px */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    font-family: 'Dosis', sans-serif;
+}
+body {
+    font-size: 1.6rem;
+    /* =16px */
+    background-color: var(--cream);
+    ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    
+    a:visited {
+        color: inherit;
+    }
+    
+    p {
+        margin: 0;
+    }
+    
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+    }
+    .button {
+        color: $white;
+        background-color: $lightgreen;
+        width: 12rem;
+        border: none;
+        border-radius: 0.5rem;
+        padding: 0.8rem 2rem;
+        box-shadow: 0px 6px 7px 3px rgba(0, 0, 0, 0.52);
+        -webkit-box-shadow: 0px 6px 7px 3px rgba(0, 0, 0, 0.52);
+        -moz-box-shadow: 0px 6px 7px 3px rgba(0, 0, 0, 0.52);
+    }
+    .button:hover {
+        color: $black;
+        background-color: $cream;
+    }
+    
+    .button a {
+        box-sizing: border-box;
+        color: $white;
+    }
+    .bg-color-verde {
+        background-color: $green;
+    }
+    
+    .bg-color-verdeLima {
+        background-color: $lightgreen
+    }
+}
