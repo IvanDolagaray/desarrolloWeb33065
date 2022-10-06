@@ -324,4 +324,14 @@ body .bg-color-verdeLima {
   }
 }
 
+.map-container {
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+.map-container .map-title {
+  margin-bottom: 2rem;
+  font-size: 2.4rem;
+}
+
 /*# sourceMappingURL=style.css.map */
